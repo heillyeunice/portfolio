@@ -1,0 +1,34 @@
+@media screen and (max-width: 600px) {
+  .experience-entry {
+    padding: 1.25rem 1rem;
+  }
+
+  .experience-header-row {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+
+  .experience-entry h3 {
+    font-size: 1.6rem;
+    line-height: 1.25;
+    margin-bottom: 0.35rem;
+  }
+
+  .experience-header-row span {
+    display: block;
+    font-size: 0.95rem;
+    white-space: normal;
+    line-height: 1.4;
+  }
+
+  .experience-entry h4 {
+    font-size: 1.15rem;
+    line-height: 1.4;
+  }
+
+  .experience-entry ul {
+    margin-left: 1.2rem;
+    font-size: 0.98rem;
+    line-height: 1.6;
+  }
+}

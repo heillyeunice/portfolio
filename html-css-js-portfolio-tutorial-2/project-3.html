@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Appointment Booking System | Project Details</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <style>
+      body {
+        background: #edf3f7;
+        color: #1d2d3d;
+      }
+
+      .project-page {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 72px 24px 60px;
+      }
+
+      .project-header {
+        text-align: center;
+        margin-bottom: 26px;
+      }
+
+      .project-header h1 {
+        font-size: clamp(2.1rem, 4vw, 3rem);
+        margin: 0.2rem 0 0;
+        color: #1d2d3d;
+      }
+
+      .project-hero {
+        display: grid;
+        grid-template-columns: 1.3fr 0.7fr;
+        gap: 28px;
+        align-items: start;
+        margin-bottom: 32px;
+      }
+      .project-screenshot {
+        width: 100%;
+        border-radius: 20px;
+        box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+        background: #fff;
+        padding: 12px;
+      }
+      .project-summary,
+      .project-section {
+        background: #fff;
+        border-radius: 18px;
+        padding: 24px;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.04);
+        margin-bottom: 24px;
+      }
+      .project-summary h2,
+      .project-section h2 {
+        margin-bottom: 14px;
+        color: #333;
+      }
+      .project-meta {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      .project-meta li {
+        margin-bottom: 12px;
+        line-height: 1.6;
+      }
+      .project-gallery {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(240px, 1fr));
+        gap: 20px;
+      }
+      .project-gallery-item {
+        background: #eef4f8;
+        border-radius: 16px;
+        overflow: hidden;
+        box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+      }
+      .project-gallery img {
+        display: block;
+        width: 100%;
+        height: 340px;
+        object-fit: contain;
+        background: #eef4f8;
+        padding: 12px;
+        box-sizing: border-box;
+      }
+      @media (max-width: 768px) {
+        .project-hero,
+        .project-gallery {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="project-page">
+      <div class="project-header">
+        <p class="section__text__p1">Project Detail</p>
+        <h1>Appointment Booking System</h1>
+      </div>
+
+      <div class="project-hero">
+        <img class="project-screenshot" src="./assets/3-1.jpg" alt="Appointment Booking System preview" />
+
+        <div class="project-summary">
+          <h2>Overview</h2>
+          <p>
+            This project is an enterprise-grade booking and queuing platform designed to eliminate long
+            waiting lines and physical bottlenecks at service centers. By introducing automated scheduling
+            and real-time visitor routing, the system addresses operational delays, delivering faster
+            visitor processing, enhanced physical security, and structured window allocation.
+          </p>
+          <ul class="project-meta">
+            <li><strong>Role:</strong> Developer / QA</li>
+            <li><strong>Stack:</strong> WAMPP, PHP, Laravel, Composer, Node.js, npm, Git, GitHub</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="project-section">
+        <h2>Project Highlights</h2>
+        <ul class="project-meta">
+          <li><strong>QR Code Verification &amp; Routing:</strong> Developed the scanner integration allowing security personnel to scan incoming visitor QR codes and immediately route them to their designated service window.</li>
+          <li><strong>Automated Queueing Workflow:</strong> Engineered dynamic queuing logic and counter-staff controls that process visitor status, minimize wait times, and update live queue sequences.</li>
+          <li><strong>Hardware &amp; Integration Testing:</strong> Performed end-to-end integration testing between physical QR hardware, live TV display boards, and backend window status controls to prevent race conditions or scan errors.</li>
+        </ul>
+      </div>
+
+      <div class="project-section">
+        <h2>Screenshots</h2>
+        <div class="project-gallery">
+          <div class="project-gallery-item">
+            <img src="./assets/3-2.jpg" alt="Project screenshot 1" loading="lazy" />
+          </div>
+          <div class="project-gallery-item">
+            <img src="./assets/3-3.jpg" alt="Project screenshot 2" loading="lazy" />
+          </div>
+        </div>
+      </div>
+
+      <div class="project-section">
+        <h2>What I Learned</h2>
+        <ul class="project-meta">
+          <li><strong>Real-Time Data &amp; Hardware Workflows:</strong> Deepened experience developing and testing real-time state synchronization between physical hardware peripherals and web applications.</li>
+          <li><strong>Quality-Driven Engineering:</strong> Adopted a QA mindset during development, writing code with edge cases, physical hardware limitations, and high-traffic load scenarios in mind.</li>
+          <li><strong>End-to-End System Design:</strong> Developed a clear understanding of how automated software solutions directly improve physical premises security and overall visitor experience.</li>
+        </ul>
+      </div>
+
+      <div class="btn-container" style="justify-content: center; margin-top: 18px;">
+        <button class="btn btn-color-2" onclick="location.href='./index.html'">Back to Portfolio</button>
+      </div>
+    </div>
+  </body>
+</html>

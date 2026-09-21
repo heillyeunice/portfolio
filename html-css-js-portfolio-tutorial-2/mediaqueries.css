@@ -1,0 +1,362 @@
+@media screen and (max-width: 1400px) {
+  #profile {
+    height: 83vh;
+    margin-bottom: 6rem;
+  }
+  .about-containers {
+    flex-wrap: wrap;
+  }
+  #contact,
+  #projects {
+    height: fit-content;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+  }
+  #experience,
+  .experience-details-container {
+    margin-top: 2rem;
+  }
+  #profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1.5rem;
+    min-height: auto;
+    padding: 2rem 1rem 0;
+  }
+  #profile .section__text {
+    width: 100%;
+    text-align: center;
+    flex: none;
+  }
+  #profile .section__text__p1,
+  #profile .title {
+    text-align: center;
+  }
+  #profile .btn-container {
+    justify-content: center;
+  }
+  #profile .section__pic-container {
+    width: min(64vw, 430px);
+    height: min(64vw, 430px);
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  .section-container {
+    display: block;
+  }
+  .arrow {
+    display: none;
+  }
+  section,
+  .section-container {
+    height: fit-content;
+  }
+  section {
+    margin: 0 5%;
+  }
+  .section__pic-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  #about .section-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem;
+  }
+  #about .section__pic-container {
+    width: min(70vw, 400px);
+    height: min(70vw, 400px);
+    margin: 0 auto;
+    border-radius: 50%;
+  }
+  #about .about-details-container,
+  #about .about-containers,
+  #about .text-container {
+    width: 100%;
+  }
+  #about .about-containers {
+    grid-template-columns: 1fr 1fr;
+  }
+  .about-containers {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #projects .about-containers {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+
+  .color-container {
+    flex: 1 1 calc(50% - 0.75rem);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+    height: auto;
+    margin-bottom: 1.5rem;
+    padding: 1.25rem 0.75rem 0;
+  }
+
+  #profile .section__pic-container {
+    width: min(78vw, 340px);
+    height: min(78vw, 340px);
+    margin: 0 auto;
+    border-radius: 50%;
+  }
+
+  #profile .section__text {
+    text-align: center;
+    width: 100%;
+  }
+
+  #profile .section__text__p1 {
+    font-size: 1.3rem;
+  }
+
+  #profile .section__text__p2 {
+    font-size: 1.7rem;
+  }
+
+  #profile .title {
+    font-size: clamp(2.6rem, 12vw, 4.2rem);
+    text-align: center;
+    line-height: 0.95;
+  }
+
+  #profile .btn-container {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+  }
+
+  #profile .btn {
+    min-width: 140px;
+    padding: 0.8rem 1rem;
+    font-size: 1rem;
+  }
+
+  #socials-container {
+    justify-content: center;
+  }
+
+  .section__text__p1,
+  .title {
+    text-align: center;
+  }
+
+  .section__pic-container {
+    width: min(82vw, 420px);
+    height: min(82vw, 420px);
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+  #about {
+    margin-top: 2rem;
+  }
+
+  #about .section-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  #about .section__pic-container {
+    width: min(82vw, 360px);
+    height: min(82vw, 360px);
+    border-radius: 50%;
+  }
+
+  #about .about-details-container {
+    margin-top: 0.5rem;
+  }
+
+  #about .about-containers {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+
+  #about .text-container {
+    margin-top: 1.75rem;
+    font-size: 0.96rem;
+    line-height: 1.7;
+  }
+
+  #projects {
+    margin-top: 2rem;
+    padding-bottom: 2.5rem;
+  }
+
+  #projects .about-containers {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 100%;
+  }
+
+  .color-container {
+    flex: 1 1 100%;
+  }
+
+  .color-container {
+    min-height: 0;
+  }
+
+  .project-title {
+    min-height: 0;
+    margin: 0.9rem 0 1rem;
+  }
+
+  #contact,
+  footer {
+    height: 40vh;
+  }
+  #profile {
+    height: 83vh;
+    margin-bottom: 0;
+  }
+  article {
+    font-size: 1rem;
+  }
+  footer nav {
+    height: fit-content;
+    margin-bottom: 2rem;
+  }
+  .about-containers,
+  .contact-info-upper-container,
+  .btn-container,
+  .education-grid {
+    flex-wrap: wrap;
+  }
+
+  .education-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+    width: 100%;
+  }
+
+  .education-card {
+    padding: 1.25rem 1rem 1rem;
+    border-radius: 1.5rem;
+    width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+  }
+
+  .education-card-header {
+    margin-bottom: 0.75rem;
+    width: 100%;
+  }
+
+  .education-card-header h3 {
+    font-size: 1.8rem;
+    line-height: 1.2;
+    word-break: break-word;
+  }
+
+  .education-card-header span {
+    display: block;
+    font-size: 1rem;
+    line-height: 1.4;
+    word-break: break-word;
+  }
+
+  .education-preview,
+  .education-card-body,
+  .education-preview-recognition {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .education-preview p,
+  .education-card-body p,
+  .education-card-body li {
+    font-size: 0.98rem;
+    word-break: break-word;
+    overflow-wrap: anywhere;
+  }
+
+  .education-toggle-row {
+    justify-content: center;
+    margin-top: 0.75rem;
+    width: 100%;
+  }
+
+  .education-toggle {
+    min-width: 180px;
+    width: fit-content;
+    padding: 0.8rem 1.3rem;
+    font-size: 1.05rem;
+    white-space: nowrap;
+  }
+
+  .education-preview-recognition ul {
+    margin-left: 1rem;
+  }
+
+  .education-card-body ul {
+    margin-left: 1rem;
+    padding-right: 0.25rem;
+  }
+
+  .contact-info-container {
+    margin: 0;
+  }
+  .contact-info-container p,
+  .nav-links li a {
+    font-size: 1rem;
+  }
+  .experience-sub-title {
+    font-size: 1.25rem;
+  }
+  .logo {
+    font-size: 1.5rem;
+  }
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+  .section__pic-container {
+    width: auto;
+    height: 46vw;
+    justify-content: center;
+  }
+  .section__text__p2 {
+    font-size: 1.25rem;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .text-container {
+    text-align: justify;
+  }
+}

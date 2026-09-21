@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Heilly Eunice Vergara | Frontend Developer</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="stylesheet" href="mobile-fixes.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Heilly Eunice Vergara</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Heilly Eunice Vergara</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#education" onclick="toggleMenu()">Education</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.png" alt="Heilly Eunice Vergara profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Heilly Eunice Vergara</h1>
+        <p class="section__text__p2">Web Developer / QA</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Vergara.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/heilly-eunice-v-a508431ab/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/heillyeunice'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about-pic.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Professional History</h3>
+              <p>Customer Service Representative<br />Tech Support &amp; Email Support</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>BS Information Technology<br />San Beda University<br /><strong>With Academic Distinction</strong><br />2022-2026</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              I am an <strong>Information Technology Graduate</strong> with a core focus on <strong>web development</strong> and <strong>quality assurance</strong>. Having recently graduated with <strong>Academic Distinction</strong> from San Beda University, I bring hands-on experience building web applications using <strong>PHP, Laravel, React, JavaScript, MySQL, and Git/GitHub</strong>, paired with practical testing across project lifecycles.
+            </p>
+            <p>
+              Throughout my academic journey and internship, I’ve worked across the web development process—from writing code and managing quality assurance on enterprise web applications to serving as <strong>Head Project Leader</strong> for my capstone team and <strong>Class President</strong>. Being a <strong>Consistent Dean’s Lister</strong> reflects my dedication to my studies, but my main drive is to keep sharpening my technical skills, writing cleaner code, and learning from experienced developer teams.
+            </p>
+            <p>
+              As I start my professional career, I am eager to apply my web development and QA skills in a collaborative environment, take on real-world challenges, and grow into a reliable <strong>web developer</strong>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">My Work History</p>
+      <h1 class="title">Professional Experience</h1>
+      <div class="experience-details-container">
+        <div class="professional-experience">
+          <div class="experience-entry">
+            <div class="experience-header-row">
+              <h3>Concentrix</h3>
+              <span>July 2021 - August 2022</span>
+            </div>
+            <h4>Customer Service Representative</h4>
+            <ul>
+              <li>Handles General Tech Support</li>
+              <li>Manages number transfers from one carrier to another</li>
+              <li>Manages number change</li>
+              <li>Manages phone plans, and handles plan payments as well as sales</li>
+              <li>Provides necessary customer support, assisting with customer related needs</li>
+            </ul>
+          </div>
+
+          <div class="experience-entry">
+            <div class="experience-header-row">
+              <h3>TaskUs</h3>
+              <span>May 2023 - August 2023</span>
+            </div>
+            <h4>Email Support</h4>
+            <ul>
+              <li>Processes cashback earnings for account</li>
+              <li>Answers customer-related emails and inquiries</li>
+              <li>Handles account management and modification</li>
+            </ul>
+          </div>
+
+          <div class="experience-entry">
+            <div class="experience-header-row">
+              <h3>TDG Crew Management Inc.</h3>
+              <span>February 2026 - May 2026</span>
+            </div>
+            <h4>IT Intern</h4>
+            <ul>
+              <li>Helps with physical IT Support along the company</li>
+              <li>Develop projects that would benefit the company's internal processes</li>
+              <li>Attend team meetings and present projects</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="education">
+      <p class="section__text__p1">Academic Journey</p>
+      <h1 class="title">Education and Recognition</h1>
+      <div class="education-grid">
+        <div class="education-card education-card--collapsible collapsed" data-education-toggle>
+          <div class="education-card-header">
+            <h3>Higher Education</h3>
+          </div>
+
+          <div class="education-preview">
+            <p><strong>Degree:</strong> Bachelor of Science in Information Technology</p>
+            <p><strong>Institution:</strong> San Beda University | College of Arts and Sciences</p>
+            <p><strong>Timeline:</strong> 2022 – 2026</p>
+            <div class="education-divider"></div>
+            <div class="education-preview-recognition">
+              <p><strong>Honors &amp; Recognition:</strong></p>
+              <ul>
+                <li>Graduated with Academic Distinction</li>
+                <li>Consistent Dean’s Lister</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="education-toggle-row">
+            <button
+              class="education-toggle"
+              type="button"
+              aria-label="Expand college details"
+              aria-expanded="false"
+            >
+              <span>Details</span>
+              <img src="./assets/arrow.png" alt="Expand college details" class="icon" />
+            </button>
+          </div>
+
+          <div class="education-card-body">
+            <div class="education-highlight">
+              <p><strong>Leadership &amp; Organizational Roles:</strong></p>
+              <ul>
+                <li><strong>Class President</strong> | College of Arts and Sciences (2022 – Present)
+                  <p>Served as the primary liaison between students, faculty, and administration to represent student concerns. Led and organized class programs, delegated tasks to class officers, and managed student initiatives.</p>
+                </li>
+                <li><strong>2nd Year Batch Representative</strong> | Bedan Information Technology Society (2023 – 2024)
+                  <p>Represented batch interests in org and Student Council meetings and coordinated batch activities.</p>
+                </li>
+                <li><strong>Assistant Internal Vice President</strong> | Bedan Information Technology Society (2022 – 2023)
+                  <p>Assisted with official documentation and co-managed key events like the 2022 CAS Business Fair.</p>
+                </li>
+                <li><strong>Social Media Manager</strong> | Bedan Information Technology Society (2022 – 2023)
+                  <p>Managed official Facebook and Instagram channels, planned marketing content, and authored captions.</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="education-card education-card--collapsible collapsed" data-education-toggle-secondary>
+          <div class="education-card-header">
+            <h3>Senior High School</h3>
+            <span>TVL - Information and Communications Technology (ICT)</span>
+          </div>
+
+          <div class="education-preview">
+            <p><strong>Institution:</strong> Diliman College | Senior High School</p>
+            <p><strong>Timeline:</strong> 2019 – 2021</p>
+            <div class="education-divider"></div>
+            <div class="education-preview-recognition">
+              <p><strong>Honors &amp; Recognition:</strong></p>
+              <ul>
+                <li>Consistent Dean’s Lister / Academic Honors</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="education-toggle-row">
+            <button
+              class="education-toggle"
+              type="button"
+              aria-label="Expand senior high details"
+              aria-expanded="false"
+            >
+              <span>Details</span>
+              <img src="./assets/arrow.png" alt="Expand senior high details" class="icon" />
+            </button>
+          </div>
+
+          <div class="education-card-body">
+            <div class="education-highlight">
+              <ul>
+              
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/1-1.jpg"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Transpo Express: Ridesharing Application</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='./project-1.html'"
+              >
+                Details
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/2-1.jpg"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Aurora</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='./project-2.html'"
+              >
+                Details
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/3-1.jpg"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Appointment Booking System</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='./project-3.html'"
+              >
+                Details
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:heillyeunice@yahoo.com">heillyeunice@yahoo.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/heilly-eunice-v-a508431ab/" target="_blank" rel="noreferrer">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2026 Heilly Eunice Vergara. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
